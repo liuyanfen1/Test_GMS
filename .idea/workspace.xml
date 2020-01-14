@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d5af3b3-a3c1-4d99-a4b0-9d86450270b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestCase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestCase/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documents/demo1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GMS_Test/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +16,10 @@
     <SUITE FILE_PATH="coverage/untitled$pytest_for_test1_Test_GMS_test_login.coverage" NAME="pytest for test1.Test_GMS.test_login Coverage Results" MODIFIED="1578465192467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GMS_Test" />
     <SUITE FILE_PATH="coverage/untitled$pytest_for_test2_Test_GMS.coverage" NAME="pytest for test2.Test_GMS Coverage Results" MODIFIED="1578476988403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GMS_Test" />
     <SUITE FILE_PATH="coverage/untitled$pytest_for_test2_Test_GMS_test_login.coverage" NAME="pytest for test2.Test_GMS.test_login Coverage Results" MODIFIED="1578476971872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GMS_Test" />
+    <SUITE FILE_PATH="coverage/Test_GMS$pytest_for_test1_Test_GMS_test_Employee.coverage" NAME="pytest for test1.Test_GMS.test_Employee Coverage Results" MODIFIED="1578971775542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/untitled$pytest_in_test2_py.coverage" NAME="pytest in test2.py Coverage Results" MODIFIED="1578475443999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GMS_Test" />
     <SUITE FILE_PATH="coverage/untitled$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1577265102322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/Test_GMS$pytest_for_test1_Test_GMS_test_login.coverage" NAME="pytest for test1.Test_GMS.test_login Coverage Results" MODIFIED="1578991159189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/untitled$pytest_for_test1_Test_GMS.coverage" NAME="pytest for test1.Test_GMS Coverage Results" MODIFIED="1577329068623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/untitled$pytest_for_GMS_Test_test1_Test_GMS_test_login.coverage" NAME="pytest for GMS_Test.test1.Test_GMS.test_login Coverage Results" MODIFIED="1577686734158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/untitled$pytest_for_test1_Test_test_login.coverage" NAME="pytest for test1.Test.test_login Coverage Results" MODIFIED="1577265215607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
@@ -37,8 +33,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCase/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="586" column="21" lean-forward="true" selection-start-line="586" selection-start-column="21" selection-end-line="586" selection-end-column="21" />
+            <state relative-caret-position="74">
+              <caret line="501" column="21" lean-forward="true" selection-start-line="501" selection-start-column="21" selection-end-line="501" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +83,7 @@
         <option value="$PROJECT_DIR$/GMS_Test/test1.py" />
         <option value="$PROJECT_DIR$/GMS_Test/test2.py" />
         <option value="$PROJECT_DIR$/TestCase/test2.py" />
+        <option value="$PROJECT_DIR$/TestCase/test1.py" />
       </list>
     </option>
   </component>
@@ -103,17 +103,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_GMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_GMS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="Log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_GMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test_GMS" type="462c0819:PsiDirectoryNode" />
               <item name="TestCase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -128,7 +123,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Documents/__init__.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -153,13 +148,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test2.Test_GMS">
+  <component name="RunManager" selected="Python tests.pytest for test1.Test_GMS.test_login">
     <configuration name="pytest for test1.Test_GMS.test_Employee" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GMS_Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -170,12 +165,12 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test1.Test_GMS.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test1.Test_GMS.test_login" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GMS_Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -191,7 +186,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GMS_Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -207,7 +202,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GMS_Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -218,12 +213,12 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in D:/Test_GMS/GMS_Test/test2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GMS_Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -234,13 +229,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for test1.Test_GMS.test_login" />
+      <item itemvalue="Python tests.pytest for test1.Test_GMS.test_Employee" />
+      <item itemvalue="Python tests.pytest for test2.Test_GMS" />
+      <item itemvalue="Python tests.pytest for test2.Test_GMS.test_login" />
+      <item itemvalue="Python tests.pytest in D:/Test_GMS/GMS_Test/test2.py" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test1.Test_GMS.test_Employee" />
         <item itemvalue="Python tests.pytest for test2.Test_GMS" />
         <item itemvalue="Python tests.pytest for test2.Test_GMS.test_login" />
-        <item itemvalue="Python tests.pytest in test2.py" />
-        <item itemvalue="Python tests.pytest for test1.Test_GMS.test_login" />
-        <item itemvalue="Python tests.pytest for test1.Test_GMS.test_Employee" />
+        <item itemvalue="Python tests.pytest in D:/Test_GMS/GMS_Test/test2.py" />
       </list>
     </recent_temporary>
   </component>
@@ -273,63 +274,73 @@
       <workItem from="1578475926567" duration="388000" />
       <workItem from="1578476372762" duration="1166000" />
       <workItem from="1578968270316" duration="1679000" />
+      <workItem from="1578971101623" duration="6608000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.08 at 14h 21m 58s.xml">
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 11h 34m 27s.xml">
       <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.08 at 14h 26m 52s.xml">
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 14h 21m 06s.xml">
       <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.08 at 14h 33m 26s.xml">
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 16h 04m 38s.xml">
       <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test2_py - 2020.01.08 at 14h 33m 39s.xml">
-      <configuration name="pytest in test2.py" configurationId="tests" />
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 16h 10m 14s.xml">
+      <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test2_Test_GMS - 2020.01.08 at 17h 23m 16s.xml">
-      <configuration name="pytest for test2.Test_GMS" configurationId="tests" />
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 16h 11m 12s.xml">
+      <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test2_Test_GMS - 2020.01.08 at 17h 23m 41s.xml">
-      <configuration name="pytest for test2.Test_GMS" configurationId="tests" />
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 16h 13m 48s.xml">
+      <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test2_Test_GMS_test_login - 2020.01.08 at 17h 23m 53s.xml">
-      <configuration name="pytest for test2.Test_GMS.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 16h 17m 02s.xml">
+      <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test2_py - 2020.01.08 at 17h 24m 06s.xml">
-      <configuration name="pytest in test2.py" configurationId="tests" />
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 16h 35m 19s.xml">
+      <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test2_Test_GMS_test_login - 2020.01.08 at 17h 49m 35s.xml">
-      <configuration name="pytest for test2.Test_GMS.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 16h 37m 14s.xml">
+      <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test2_Test_GMS - 2020.01.08 at 17h 49m 50s.xml">
-      <configuration name="pytest for test2.Test_GMS" configurationId="tests" />
+    <history-entry file="pytest_for_test1_Test_GMS_test_login - 2020.01.14 at 16h 40m 15s.xml">
+      <configuration name="pytest for test1.Test_GMS.test_login" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126470000" />
+    <option name="totallyTimeSpent" value="133078000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14901665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15128593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6918033" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38196722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.352459" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35126582" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -410,9 +421,6 @@
     <entry file="file://$PROJECT_DIR$/Common/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Log/err.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Common/login_gms.py" />
     <entry file="file://$PROJECT_DIR$/Documents/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -450,6 +458,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Documents/demo1.html" />
+    <entry file="file://$PROJECT_DIR$/Log/log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -460,13 +471,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Log/log.log">
+    <entry file="file://$PROJECT_DIR$/Log/err.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCase/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="586" column="21" lean-forward="true" selection-start-line="586" selection-start-column="21" selection-end-line="586" selection-end-column="21" />
+        <state relative-caret-position="74">
+          <caret line="501" column="21" lean-forward="true" selection-start-line="501" selection-start-column="21" selection-end-line="501" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

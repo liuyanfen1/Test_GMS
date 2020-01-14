@@ -1,12 +1,11 @@
 from selenium import webdriver
-import os,time,allure,pytest
+import os,time,pytest
 
 # driver=webdriver.Chrome()
 # driver.get("http://192.168.9.121")
-@allure.featrue("")
+
 class Test_GMS():
-    @allure.story("")
-    def test_start(self):
+      def test_start(self):
         # 确定chromedriver.exe的位置
         driver_path = os.path.join(os.path.dirname(__file__), "D:/software/Python/chromedriver.exe")
         # 打开浏览器
@@ -17,9 +16,9 @@ class Test_GMS():
         driver.implicitly_wait(10)  # 元素查找超时时间10s
         return driver
 
-    def test_login(self):
-        driver=self.start()
-        driver.get('http://192.168.9.121')
+      def test_login(self):
+        driver=self.test_start()
+        driver.get('http://192.168.9.121/')
         User =driver.find_element_by_xpath("//input[@placeholder='User ID']")    # 定位UserID
         Password=driver.find_element_by_xpath("//input[@placeholder='Password']")    # 定位Pssword
         User.send_keys("Admin") # 输入UserID=Admin
@@ -462,25 +461,25 @@ class Test_GMS():
         # 定位Tenant下拉框并点击
         driver.find_element_by_xpath("(//input[@placeholder='Select'])[1]").click()
         time.sleep(1)
-        # # 定位suez并点击
+        # 定位suez并点击
         driver.find_element_by_xpath("//span[contains(text(),'Suez')]").click()
         time.sleep(1)
         # 定位Add并点击
         driver.find_element_by_xpath("//span[contains(text(),'Add')]").click()
         time.sleep(1)
-        #定位Tenant下拉框并点击
+        # 定位Tenant下拉框并点击
         driver.find_element_by_xpath("(//input[@placeholder='Select'])[1]").click()
         time.sleep(1)
         # 定位Test并点击
-        driver.find_element_by_xpath("(//span[contains(text(),'Test')])[7]").click()
+        driver.find_element_by_xpath("(//span[contains(text(),'Test')])[1]").click()
         time.sleep(1)
-        #定位Country下拉框并点击
+        # 定位Country下拉框并点击
         driver.find_element_by_xpath("(//input[@placeholder='Select'])[2]").click()
         time.sleep(1)
         # 定位Indonesia并点击
         driver.find_element_by_xpath("//span[contains(text(),'Indonesia')]").click()
         time.sleep(1)
-        #定位Legal Entity下拉框并点击
+        # 定位Legal Entity下拉框并点击
         driver.find_element_by_xpath("(//input[@placeholder='Select'])[3]").click()
         time.sleep(1)
         # 定位TEST000并点击
@@ -495,10 +494,10 @@ class Test_GMS():
         # 定位Cycle下拉框并点击
         driver.find_element_by_xpath("(//input[@placeholder='Select'])[4]").click()
         time.sleep(1)
-        #定位CDP Asia Payroll Cycle 并选择
+        # 定位CDP Asia Payroll Cycle 并选择
         driver.find_element_by_xpath("//span[contains(text(),'CDP Asia Payroll Cycle')]").click()
         time.sleep(1)
-        #定位Payroll Frequency下拉框并点击
+        # 定位Payroll Frequency下拉框并点击
         driver.find_element_by_xpath("(//input[@placeholder='Select'])[5]").click()
         time.sleep(1)
         # 定位Payroll Frequency=1 并点击
@@ -526,10 +525,10 @@ class Test_GMS():
         # 定位Add并点击
         driver.find_element_by_xpath("//span[contains(text(),'Add')]").click()
         time.sleep(1)
-        # 定位Import按钮并点击
-        driver.find_element_by_xpath("(//span[contains(text(),'Import')])[2]").send_keys(
-            "D:\GMS\3_Technical_Documents\GMS Template Documents\Payroll Cycle Calendar Import Template/Cycle.xlsx")
-        time.sleep(2)
+        # # 定位Import按钮并点击
+        # driver.find_element_by_xpath("(//span[contains(text(),'Import')])[2]").send_keys(
+        #     "D:\GMS\3_Technical_Documents\GMS Template Documents\Payroll Cycle Calendar Import Template/Cycle.xlsx")
+        # time.sleep(2)
         # 定位Save按钮并点击
         driver.find_element_by_xpath("//span[contains(text(),'Save')]").click()
         time.sleep(1)
