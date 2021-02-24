@@ -2,7 +2,7 @@ from selenium import webdriver
 import os,time,pytest
 
 # driver=webdriver.Chrome()
-# driver.get("http://192.168.9.121")
+# driver.get("http://10.76.3.121")
 
 class Test_GMS():
       def test_start(self):
